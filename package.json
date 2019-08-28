@@ -1,0 +1,31 @@
+{
+  "name": "taylan-talu",
+  "version": "1.0.0",
+  "description": "Bu bir deneme projesidir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "taylan": "echo 'buradaki komutları npm run taylan deyip çalıştırabiliriz.'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "deneme",
+    "paket"
+  ],
+  "author": "Taylan Talu",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.6.11",
+    "mongose": "0.0.2-security",
+    "nodemailer": "^6.3.0",
+    "simple-is": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taylantalu/node-paket-olusturma.git"
+  }
+  
+}
